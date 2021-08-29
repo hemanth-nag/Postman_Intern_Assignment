@@ -4,6 +4,7 @@
 * Clone the repo.
 * Move into the project folder.
 * In the terminal, type: 'python app.py' to run the flask app for api data extraction and viewing database.
+* If you want to run api extraction directly without the UI, type: 'python main.py'
 * Copy, paste the url 'http://localhost:5000/' onto your favorite internet browser.
 # Docker Run
 * Put this in the terminal: 'docker pull hemanthnag/public_api_scrap'
@@ -54,3 +55,9 @@ I tried to find any loop holes and even tried out public proxies as a work-aroun
 Yes, I have crawled all 45 API categories and fetched a total of '640' entries.
 
 # Improvements
+
+* Currently, I am managing status-codes of auth token expiry, rate-limit and OK. I would like to add handling of server error, service un-available, etc.
+* I would like to further improve code structure. Few of the function structures would need improvement and optimization. I have to work on that.
+* If time permits, I'll have to further improve this README file, with detailed explanations :)
+
+# THANK YOU
