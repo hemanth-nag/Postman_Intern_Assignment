@@ -16,14 +16,16 @@
 * Click on 'Start 'Public APIs' list scraping' to re-start data fetch (Please view terminal for logs)
 ### Database View
 ![image](https://user-images.githubusercontent.com/66530316/131262193-87d942ef-d57f-4988-ada6-8bba64377c5f.png)
+
+
 Here, the two tables:categories and API_list are INNER JOINed to get category name into the same display table. 
 
 # Details of tables:
 * I have made two tables:
 
-categories(ctgry_id, category)
+    categories(ctgry_id, category)
 
-API_list(id2 ,api_name , category , description, auth, https, cors, link)
+    API_list(id2 ,api_name , category , description, auth, https, cors, link)
 
 
 * Here, API_list.category references categories.ctgry_id as foreign key.
@@ -50,7 +52,7 @@ My code extracts the 'count' data from the response and extracts data from all p
 
 ## 4. Develop work around for rate limited server
 
-I am currently just haulting the program till the RATE-LIMIT-RESET and continuing further requests.
+I am currently just haulting(time.sleep()) the program till the RATE-LIMIT-RESET and continuing further requests.
 I tried to find any loop holes and even tried out public proxies as a work-around for rate-limit. They do work but public proxies are too slow and unsecure.
 
 ## 5. Crawled all API entries for all categories and stored it in a database
