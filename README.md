@@ -18,8 +18,10 @@
 
 # Details of tables:
 * I have made two tables:
-                         categories(ctgry_id, category)
-                         API_list(id2 ,api_name , category , description, auth, https, cors, link)
+
+categories(ctgry_id, category)
+
+API_list(id2 ,api_name , category , description, auth, https, cors, link)
 * Here, API_list.category references categories.ctgry_id as foreign key.
 * I have used SQLite3 DBMS beacuse it is light and sufficient for the task. Also, the database and tables get auto-created during execution. 
 * Creation of tables externally is not required, but queries are:
