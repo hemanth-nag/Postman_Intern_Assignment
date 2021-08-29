@@ -6,13 +6,15 @@
 * In the terminal, type: 'python app.py' to run the flask app for api data extraction and viewing database.
 * Copy, paste the url 'http://localhost:5000/' onto your favorite internet browser.
 # Docker Run
-* Put this in the terminal: ''
+* Put this in the terminal: 'docker pull hemanthnag/public_api_scrap'
 * Now, type: docker run -p 5000:5000 hemanthnag/public_api_scrap
 * Copy, paste the url 'http://localhost:5000/' onto your favorite internet browser.
 ### Home Page
 ![image](https://user-images.githubusercontent.com/66530316/131257129-acfecb61-6f95-4d3e-85b9-08414f08d26d.png)
 * Click on 'View fetched data stored in database' to view the stored database.  
 * Click on 'Start 'Public APIs' list scraping' to re-start data fetch (Please view terminal for logs)
+### Database View
+![image](https://user-images.githubusercontent.com/66530316/131262193-87d942ef-d57f-4988-ada6-8bba64377c5f.png)
 
 # Details of tables:
 * I have made two tables:
