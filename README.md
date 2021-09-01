@@ -40,7 +40,7 @@ Here, the two tables:categories and API_list are INNER JOINed to get category na
 
 ## 1. Your code should follow concept of OOPS
 
-Yes, my code does follow concepts of OOPs. It uses classes and methods for data abtraction, etc.
+Yes, my code does follow concepts of OOPs. It uses classes and methods for data abstraction, etc.
 
 ## 2. Support for handling authentication requirements & token expiration of server
 
